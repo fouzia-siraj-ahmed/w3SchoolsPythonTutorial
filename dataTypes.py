@@ -160,3 +160,34 @@ print(type(c))  # <class 'complex'>
 #  import random (see line 1 since import statements must be at the top of the page)
 
 print(random.randrange(1, 10))  # random number between 1 and 10. Example: 7
+print("**********************")
+#  Python Casting
+#  int()
+x = int(1)  # x will be 1
+y = int(2.8)  # y will be a 2
+z = int("3")  # z will be 3
+
+print(x)
+print(y)
+print(z)
+print("**********************")
+
+#  float()
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
+
+print(x)
+print(y)
+print(z)
+print(w)
+print("**********************")
+#  str()
+x = str("s1") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be '3.0'
+
+print(x)
+print(y)
+print(z)
